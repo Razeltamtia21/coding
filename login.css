@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://images.hdqwalls.com/download/dark-moon-night-minimal-art-d8-2560x1440.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container, form {
+    margin: 0 auto;
+    max-width: 600px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 4rem;
+    margin-top: 20px;
+    color: rgb(136, 136, 255);
+}
+
+.container span {
+    display: block;
+    color: cornflowerblue;
+}
+
+.container p {
+    display: block;
+    font-size: 1.2rem;
+    color: #ededed;
+}
+
+form {
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+    background-color: #202123;
+    border-radius: 20px;
+    padding: 80px 20px;
+    box-shadow: 0 0 20px rgb(66, 50, 210);
+}
+
+.form-group, .form-groups, .wrapper {
+    width: 92%;
+    color: #fff;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group input {
+    color: #fff;
+    font-size: 1rem;
+    background-color: #2c2f35;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+input[type="checkbox"] {
+    width: 20px; 
+    height: 20px; 
+    transform: scale(1.1);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.form-groups {
+    font-size: 1.2rem;
+}
+
+.form-groups .btn {
+    margin-top: 10px;
+    margin-right: 5px;
+    font-weight: bold;
+    padding: 10px 65px;
+    border-radius: 15px;
+    border: 1px solid #2c2f35;
+    background-color: #2c2f35;
+    cursor: pointer;
+}
+
+.form-groups .btn:hover {
+    color: #fff;
+    background-color: #202123;
+}
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 25px;
+    font-size: 2rem;
+}
+
+nav ul li a, nav ul li a i {
+    color: #2c2f35;
+    transition: color 0.3s, transform 1s;
+}
+
+nav ul li a:hover, nav ul li a i:hover {
+    color: #fff;
+    transform: scale(1.5);
+}
+
+.register {
+    width: 90px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 10px 40px;
+    color: rgb(51, 108, 214);
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    color: rgb(51, 108, 214);
+    text-decoration: none;
+    border: 1px solid rgb(51, 108, 214);
+    transition-duration: 1s;
+}
+
+.register:hover{
+    color: white;
+    background-color: rgb(51, 108, 214);
+}

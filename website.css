@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    color: white;
+    background-color: rgb(2, 55, 125);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    font-size: 1rem;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+nav ul li a:hover {
+    color: rgb(78, 140, 255);
+}
+
+.sign-in {
+    color: rgb(20, 123, 220);
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(20, 123, 220);
+    transition-duration: 1s;
+}
+
+.sign-in:hover {
+    color: white;
+    background-color: rgb(20, 123, 220);
+}
+
+section {
+    padding: 20px 0 61px 0;
+}
+
+.wrapper {
+    color: white;
+    background-color: rgb(2, 55, 125);
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content {
+    max-width: 60%;
+}
+
+.hero-img {
+    margin-top: 20px;
+    max-width: 45%;
+    animation: moveUpDown 5s infinite linear;
+}
+
+@keyframes moveUpDown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+}
+
+.wrapper h1 {
+    padding-bottom: 50px;
+    font-size: 3rem;
+}
+
+.wrapper h1 span {
+    color: rgb(86, 158, 203);
+    display: block;
+}
+
+.wrapper p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+.btn-form {
+    padding: 12px 45px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    background-color: rgb(78, 140, 255);
+}
+
+.btn-form:hover {
+    background-color: rgb(20, 123, 220);
+}
+
+.video-link {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.video-link i {
+    font-size: 2rem;
+    color: white;
+}
+
+.video-link a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}
+
+.wrappers {
+    padding: 20px;
+    background-color: #fff;
+}
+
+.wrappers h1 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.flexs {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.container .flexs .contents {
+    max-width: 45%;
+}
+
+.container .flexs .heros {
+    max-width: 45%;
+}
+
+.contents p {
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.heros p {
+    padding-bottom: 20px;
+}
+
+.heros a {
+    display: inline-block;
+    font-weight: bold;
+    padding: 10px 40px;
+    color: rgb(78, 140, 255);
+    border: 1px solid rgb(78, 140, 255);
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.heros a:hover {
+    color: white;
+    background-color: rgb(78, 140, 255);
+}

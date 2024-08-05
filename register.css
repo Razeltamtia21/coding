@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-image: url("https://images.wallpapersden.com/image/download/watching-artistic-sunset-clouds_bGtnbGiUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+form {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px rgb(50, 170, 210);
+    backdrop-filter: blur(2px); 
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+.wrapper {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0 40px;
+    font-size: 1.5rem;
+    transition-duration: 1s;
+}
+
+nav ul li a {
+    color: #2c2f35;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+nav ul li:hover, nav ul li a:hover {
+    color: white;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.form-group {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
+
+.form-group input {
+    width: 60%;
+    margin: 0 auto;
+    margin-right: 10px;
+    font-size: 1rem;
+    color: white;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.237);
+    backdrop-filter: blur(10px); 
+    transition-duration: 1s;
+}
+
+input::-webkit-input-placeholder {
+    color: #fff;
+}
+  
+.form-group input:focus {
+    outline: none;
+    border: 1px solid rgb(33, 33, 232);
+}
+
+.btn {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.btn button {
+    margin: 0;
+    padding: 10px 40px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: rgb(33, 33, 232);
+    border: 1px solid rgb(33, 33, 232);
+    cursor: pointer;
+    transition-duration: 1s;
+}
+
+.btn button:hover {
+    color: white;
+    background-color: rgb(33, 33, 232);
+}
